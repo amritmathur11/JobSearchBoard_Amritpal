@@ -21,12 +21,10 @@ namespace JobSearchBoard_A00218328_Amritpal.Models
         [Display(Name = "Company Name")]
         public string CompanyName { get; set; }
 
-        [Display(Name = "Registration Date")]
-        public DateTime RegistrationDate { get; set; }
-
-        public string Mobile { get; set; }
-        [Display(Name = "Company Website")]
-        public string CompanyWebsite { get; set; }
+        [Display(Name = "Year Established")]
+        public DateTime YearEstablished { get; set; }
+        [StringLength(1000)]
+        public string Biography { get; set; }
 
        
     }

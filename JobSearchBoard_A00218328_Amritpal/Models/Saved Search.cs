@@ -13,8 +13,8 @@ namespace JobSearchBoard_A00218328_Amritpal.Models
     {
         public int ID { get; set; }
 
-        public int CandidateId { get; set; }
-
-        public int JobId { get; set; }
+        public string User { get; set; }
+        [Display(Name = "Search Terms")]
+        public string SearchTerms { get; set; }
     }
 }

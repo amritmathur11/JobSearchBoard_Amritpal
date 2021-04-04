@@ -13,11 +13,11 @@ namespace JobSearchBoard_A00218328_Amritpal.Models
     {
         public int ID { get; set; }
 
-        public int CandidateId { get; set; }
+        public int Candidate { get; set; }
 
-        public int JobId { get; set; }
+        public int Resume { get; set; }
 
-        public DateTime DateApplied { get; set; }
+        public string Coverletter { get; set; }
         
     }
 }

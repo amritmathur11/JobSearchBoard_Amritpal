@@ -19,26 +19,17 @@ namespace JobSearchBoard_A00218328_Amritpal.Models
         public string LastName { get; set;}
 
         [StringLength(100)]
-        public string Address { get; set; }
+       
+        public string Email { get; set; }
 
-        [StringLength(100)]
-        public string EmailId { get; set; }
-        [StringLength(100)]
-        public string Password { get; set; }
-
-        public string Mobile { get; set; }
-
-        public string Gender { get; set; }
+        [Display(Name = "Phone Number")]
+        public int PhoneNumber { get; set; }
 
         public int Age { get; set; }
+        [StringLength(100)]
 
-        public string State { get; set; }
+        public string Address { get; set; }
 
-        public string District { get; set; }
-        [Display(Name = "Key Skills")]
-        public string KeySkills { get; set; }
-
-      
-
+        
     }
 }

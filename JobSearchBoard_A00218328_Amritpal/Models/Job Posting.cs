@@ -13,14 +13,13 @@ namespace JobSearchBoard_A00218328_Amritpal.Models
     {
          public int ID { get; set; }
         [Display(Name = "Job Title")]
-        public string Jobtitle { get; set; }
-        [Display(Name = "Job Skills")]
-        public string JobSkills { get; set; }
-        [Display(Name = "Job Description")]
-        public string JobDescription { get; set; }
-        [Display(Name = "Posting Date")]
-        public DateTime PostingDate { get; set; }
-        public int EmployerId { get; set; }
+        public string Company { get; set; }
+        
+        [Display(Name = "Description")]
+        [StringLength(1000)]
+        public string Description { get; set; }
+        
+        public int Salary { get; set; }
 
     }
 

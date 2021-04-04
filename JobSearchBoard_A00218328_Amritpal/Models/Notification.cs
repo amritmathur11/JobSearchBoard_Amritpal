@@ -13,13 +13,12 @@ namespace JobSearchBoard_A00218328_Amritpal.Models
     {
         public int ID { get; set; }
 
-        public int EmployerId { get; set; }
+        public string User { get; set; }
 
-        public int JobId { get; set; }
+        public DateTime DateSent { get; set; }
 
-        public string NotificationText{ get; set; }
+        public string Type{ get; set; }
 
 
-        public int ReadCount { get; set; }
 }
 }
